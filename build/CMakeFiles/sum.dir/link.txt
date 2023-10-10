@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/sum.dir/main.cpp.o CMakeFiles/sum.dir/Date.cpp.o -o sum 
