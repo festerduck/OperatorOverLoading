@@ -3,9 +3,16 @@ using namespace std;
 
 int main()
 {
-	Date lhs(0, 10, 30), rhs(0, 4, 31), sum;
-	sum = lhs + rhs;
-	cout <<	sum.to_string() << endl;
+	cout << "Enter the Date in Format (YY MM DD): " << endl;
+	int y, m, d;
+	cin >> y >> m >> d;
+	Date date_1(y, m, d);
+	cout << "Enter the Date in Format (YY MM DD): " << endl;
+	cin >> y >> m >> d;
+	Date date_2(y, m, d);
+	Date sum;
+	sum = date_1 - date_2;
+	cout << "Result = " << sum.to_string() << endl;
 	return 0;
 }
 
